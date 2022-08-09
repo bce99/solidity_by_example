@@ -1,4 +1,4 @@
-def qn1_blockchaindev(arr, length, num):
+def logn(arr, length, num):
     start = 0
     end = length - 1
     while start <= end:
@@ -11,5 +11,5 @@ def qn1_blockchaindev(arr, length, num):
             end = mid - 1
     return end + 1
 
-print(qn1_blockchaindev([1, 3, 5, 6], 4, 5))
-print(qn1_blockchaindev([1, 3, 5, 6], 4, 2))
+print(logn([1, 3, 5, 6], 4, 5))
+print(logn([1, 3, 5, 6], 4, 2))
